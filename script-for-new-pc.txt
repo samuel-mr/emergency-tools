@@ -1,0 +1,55 @@
+> PowerShell AS admin
+
+# Actualizar Chocolatey
+choco upgrade chocolatey
+
+# Desarrollo - Herramientas de Desarrollo
+choco install -y visualstudio2022community --package-parameters "--add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --includeRecommended"
+choco install -y vscode
+choco install -y git
+#choco install -y poshgit
+choco install -y github-desktop
+choco install -y nvm
+#choco install -y nodejs ! no more individual installation!
+choco install pyenv-win # python version manager for windows
+#choco install -y python
+  #choco install -y awscli
+  #choco install -y terraform
+choco install -y postman
+
+# Desarrollo - Herramientas de Bases de Datos
+  #choco install -y mysql
+  #choco install -y pgadmin4
+  #choco install -y dbeaver
+
+# Diseño - Herramientas de Diseño
+  #choco install -y gimp
+  #choco install -y inkscape
+  #choco install -y krita
+choco install -y blender
+choco install -y paint.net
+choco install -y davinci-resolve
+
+# Utilidades - Herramientas de Productividad y Utilidades
+choco install -y googlechrome
+choco install -y firefox
+choco install -y 7zip
+choco install -y notepadplusplus
+choco install -y slack
+choco install telegram.install
+choco install -y zoom
+choco install -y teamviewer
+
+# To Complete the setup!
+choco install sysinternals
+choco install discord.install
+everything (has params)
+choco install docker-desktop
+
+
+
+# Limpiar archivos temporales de Chocolatey
+choco clean
+
+# Mensaje final
+Write-Host "Instalación completada. Por favor, reinicia tu computadora para completar el proceso."
