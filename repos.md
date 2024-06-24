@@ -1,0 +1,12 @@
+android\sceneview-android - https://github.com/SceneView/sceneview-android.git
+flutter\AppFlowy - https://github.com/AppFlowy-IO/AppFlowy.git
+flutter\Best-Flutter-UI-Templates - https://github.com/mitesh77/Best-Flutter-UI-Templates.git
+flutter\edge_detection_example - https://github.com/ritsat/edge_detection_example.git
+flutter\flutter-wonderous-app - https://github.com/gskinnerTeam/flutter-wonderous-app.git
+flutter\flutter_whirlpool - https://github.com/pawlik92/flutter_whirlpool.git
+flutter\fl_chart - https://github.com/imaNNeo/fl_chart.git
+flutter\getwidget - https://github.com/ionicfirebaseapp/getwidget.git
+flutter\samples - https://github.com/flutter/samples.git
+ia\stable-diffusion-webui - https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+microsoft\azure-sdk-for-net - https://github.com/Azure/azure-sdk-for-net.git
+rust\advent-of-code-2022 - https://github.com/timvisee/advent-of-code-2022.git
