@@ -39,13 +39,26 @@ choco install -y slack
 choco install telegram.install
 choco install -y zoom
 choco install -y teamviewer
+choco install spotify
+choco install cpu-z.install
+choco install notion
+choco install powertoys
+choco install qbittorrent
 
 # To Complete the setup!
 choco install sysinternals
 choco install discord.install
 everything (has params)
 choco install docker-desktop
+cwrsync (win version of a linux tool to create backup and allow configure gitignore riles)
 
+# Manually
+Oh my posh
+Geforce Experience
+NSwagStudio
+Ollama
+Oracle VM Virtual Box
+Popcorn-Time
 
 
 # Limpiar archivos temporales de Chocolatey
