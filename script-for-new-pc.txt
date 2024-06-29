@@ -4,6 +4,7 @@
 choco upgrade chocolatey
 
 # Desarrollo - Herramientas de Desarrollo
+choco install googlechrome
 choco install -y visualstudio2022community --package-parameters "--add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --includeRecommended"
 choco install -y vscode
 choco install -y git
