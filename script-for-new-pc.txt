@@ -1,21 +1,21 @@
 > PowerShell AS admin
-
+- If for some reason some installation is stopped, close powershell, and start again (For the last truncated installation probably you need to use --force)
 # Actualizar Chocolatey
 choco upgrade chocolatey
 
 # Desarrollo - Herramientas de Desarrollo
-choco install googlechrome
+choco install -y googlechrome
 choco install -y visualstudio2022community --package-parameters "--add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --includeRecommended"
 choco install -y vscode
-choco install -y git
+choco install -y git.install
 #choco install -y poshgit
 choco install -y github-desktop
 choco install -y nvm
-#choco install -y nodejs ! no more individual installation!
+# choco install -y nodejs ! no more individual installation!
 choco install pyenv-win # python version manager for windows
-#choco install -y python
-  #choco install -y awscli
-  #choco install -y terraform
+# choco install -y python
+  # choco install -y awscli
+  # choco install -y terraform
 choco install -y postman
 
 # Desarrollo - Herramientas de Bases de Datos
@@ -37,19 +37,19 @@ choco install -y firefox
 choco install -y 7zip
 choco install -y notepadplusplus
 choco install -y slack
-choco install telegram.install
+choco install -y telegram.install
 choco install -y zoom
-choco install -y teamviewer
-choco install spotify
-choco install cpu-z.install
-choco install notion
-choco install powertoys
-choco install qbittorrent
+# choco install -y teamviewer
+choco install -y spotify
+choco install -y cpu-z.install
+choco install -y notion
+choco install -y powertoys
+choco install -y qbittorrent
 
 # To Complete the setup!
-choco install sysinternals
-choco install discord.install
-everything (has params)
+choco install -y sysinternals
+choco install -y discord.install
+# everything (has params)
 choco install docker-desktop
 cwrsync (win version of a linux tool to create backup and allow configure gitignore riles)
 
