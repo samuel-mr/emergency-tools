@@ -13,6 +13,14 @@ choco install -y github-desktop
 choco install -y nvm
 # choco install -y nodejs ! no more individual installation!
 choco install pyenv-win # python version manager for windows
+###
+# pyenv.bat install 3.5.2
+# pyenv.bat global 3.5.2
+# Win10 or 11 : Disable in : "app execution aliases" / "Pyhon" alias
+# To test if it's working: python -c "import sys; print(sys.executable)"
+#
+# pyenv.bat versions
+###
 # choco install -y python
   # choco install -y awscli
   # choco install -y terraform
