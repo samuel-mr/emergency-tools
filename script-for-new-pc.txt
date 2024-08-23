@@ -1,5 +1,9 @@
 > PowerShell AS admin
 - If for some reason some installation is stopped, close powershell, and start again (For the last truncated installation probably you need to use --force)
+- Some package needs to be called by cmd, to avoid create a new environment variable, choco do this:
+  - It created a special folder aim to store all the 'direct access' in C:\ProgramData\chocolatey\bin (with an Env variable pointing to this one). 
+    - e.g.: for Sysinternals, but not for Davinci Resolve or another big software
+ 
 # Actualizar Chocolatey
 choco upgrade chocolatey
 
