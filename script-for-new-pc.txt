@@ -15,6 +15,7 @@ choco install -y git.install
 #choco install -y poshgit
 choco install -y github-desktop
 choco install -y nvm
+choco install -y oh-my-posh ## I have test it with powershel 7
 # choco install -y nodejs ! no more individual installation!
 choco install pyenv-win # python version manager for windows
 ###
